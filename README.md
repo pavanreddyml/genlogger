@@ -13,7 +13,7 @@ To get started, simply integrate **GLogger** into your existing code:
 
 ```python
 import logging
-from glogger import GenLogging, GenZ
+from genlogger import GenLogging, GenZ
 GenLogging(generation=GenZ)
 ```
 
