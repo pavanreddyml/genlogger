@@ -1,6 +1,6 @@
 # GLogger: The Logger That Speaks Your Language
 
-Say hello to **GLogger** or **GenLogger** – the logger that makes your debugging a vibe. We’ve officially retired the tired old "DEBUG," "INFO," and "ERROR" for something with a little more personality: **YAP**, **DEETS**, **SKETCH**, **SUS**, and when things go totally sideways, **COOKED**. 
+Say hello to or **GenLogger** – the logger that makes your debugging a vibe. We’ve officially retired the tired old "DEBUG," "INFO," and "ERROR" for something with a little more personality: **YAP**, **DEETS**, **SKETCH**, **SUS**, and when things go totally sideways, **COOKED**. 
 
 This isn’t just a logger; it’s a generational bridge for your codebase. Gen Z will call it lit, Millennials will embrace it ironically (but actually love it), and Boomers… well, they’ll ask for the docs (they wont be here long anyways). So why settle for boring logs when you can debug with *style*? Spice up your workflow and let your logs do the talking!
 
