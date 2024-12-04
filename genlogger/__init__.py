@@ -1,4 +1,4 @@
 from .genlogger import GenLogging
-from .config import GenZ
+from .generations import GenZ
 
 __all__ = ['GenLogging', "GenZ"]

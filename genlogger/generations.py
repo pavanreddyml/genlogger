@@ -1,7 +1,9 @@
 from dataclasses import dataclass
+from typing import Protocol, runtime_checkable
 
 
-class Generation:
+@runtime_checkable
+class GenerationProtocol(Protocol):
     debug: str
     info: str
     warning: str
@@ -13,6 +15,19 @@ class Generation:
     warning_tag: str
     error_tag: str
     critical_tag: str
+
+
+class Generation:
+    def __post_init__(self):
+        # Validate that the object conforms to the GenerationProtocol
+        missing_fields = [
+            attr for attr in GenerationProtocol.__annotations__
+            if not hasattr(self, attr)
+        ]
+        if missing_fields:
+            raise TypeError(
+                f"Missing required fields for protocol conformance: {', '.join(missing_fields)}"
+            )
 
 
 @dataclass

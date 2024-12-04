@@ -1,5 +1,5 @@
 import logging
-from .config import Generation
+from .generations import Generation
 from typing import Type, TypeVar
 
 T = TypeVar("T", bound=Generation)
@@ -10,9 +10,6 @@ class GenLogging:
 
         if generation is None:
             raise ValueError("Generation must be provided")
-        
-        if not issubclass(generation, Generation):
-            raise TypeError("Generation must be a subclass of Generation")
         
         dataclass = generation()
         
