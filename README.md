@@ -1,4 +1,4 @@
-# GLogger: The Logger That Speaks Your Language
+# GenLogger: The Logger That Speaks Your Language
 
 Say hello to or **GenLogger** – the logger that makes your debugging a vibe. We’ve officially retired the tired old "DEBUG," "INFO," and "ERROR" for something with a little more personality: **YAP**, **DEETS**, **SKETCH**, **SUS**, and when things go totally sideways, **COOKED**. 
 
@@ -9,7 +9,7 @@ For now, we only support the coolest generation of all time – **Gen Z**. But d
 
 # Usage
 
-To get started, simply integrate **GLogger** into your existing code:
+To get started, simply integrate **GenLogger** into your existing code:
 
 ```python
 import logging
@@ -17,7 +17,7 @@ from genlogger import GenLogging, GenZ
 GenLogging(generation=GenZ)
 ```
 
-This modifies the `logging` module in place and works seamlessly with your current setup. **Important:** Make sure you import `glogger` *after* importing the `logging` module. If you import it before and your system gets **COOKED**, well… that’s on you. We’re Gen Z; we don’t write tests. 😉
+This modifies the `logging` module in place and works seamlessly with your current setup. **Important:** Make sure you import `genlogger` *after* importing the `logging` module. If you import it before and your system gets **COOKED**, well… that’s on you. We’re Gen Z; we don’t write tests. 😉
 
 # Contributing
 
